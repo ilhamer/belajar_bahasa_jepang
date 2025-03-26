@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel Huruf Jepang - Hiragana & Katakana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tabel Huruf Jepang Lengkap</h1>
+        <p>Hiragana dan Katakana dengan Variasi Bunyi</p>
+    </header>
+    
+    <div class="intro">
+        <h2>Apa itu Kana?</h2>
+        <p>Kana adalah sistem tulisan suku kata Jepang yang terdiri dari Hiragana dan Katakana. Keduanya mewakili bunyi yang sama tetapi digunakan untuk keperluan berbeda.</p>
+    </div>
+    
+    <div class="kana-section">
+        <h2>Hiragana ひらがな</h2>
+        <p>Hiragana digunakan untuk:</p>
+        <ul>
+            <li>Kata-kata asli bahasa Jepang (ketika tidak ditulis dalam Kanji)</li>
+            <li>Unsur tata bahasa (partikel, akhiran kata kerja)</li>
+            <li>Furigana (panduan pengucapan untuk Kanji)</li>
+        </ul>
+        
+        <div class="table-container" id="hiragana-table">
+            <!-- Tabel akan diisi oleh JavaScript -->
+        </div>
+    </div>
+    
+    <div class="kana-section">
+        <h2>Katakana カタカナ</h2>
+        <p>Katakana digunakan untuk:</p>
+        <ul>
+            <li>Kata serapan dari bahasa asing</li>
+            <li>Nama orang dan tempat asing</li>
+            <li>Onomatopoeia (kata tiruan bunyi)</li>
+            <li>Penekanan kata</li>
+        </ul>
+        
+        <div class="table-container" id="katakana-table">
+            <!-- Tabel akan diisi oleh JavaScript -->
+        </div>
+    </div>
+
+    <h1>Kata-kata Bahasa Jepang Sehari-hari</h1>
+    <div id="loading">Memuat data...</div>
+    <table id="phrases-table">
+        <thead>
+            <tr>
+                <th>Bahasa Jepang</th>
+                <th>Artinya</th>
+                <th>Kategori</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+            <!-- Data akan diisi oleh JavaScript -->
+        </tbody>
+    </table>
+
+    <footer>
+        <p>&copy; 2025 Tabel Huruf Jepang  @create_by_ilham_R.M | Untuk pembelajaran bahasa Jepang</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script type="module" src="modules/speech.js"></script>
+</body>
+</html>

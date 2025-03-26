@@ -1,0 +1,302 @@
+/* Gaya Umum */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #e74c3c;
+}
+
+
+.intro, .kana-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Gaya Tabel */
+.table-container {
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+th {
+    background-color: #e74c3c;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    min-width: 60px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    table {
+        font-size: 14px;
+    }
+    
+    td {
+        padding: 8px 5px;
+    }
+}
+
+.quiz-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 30px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.quiz-question {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.quiz-question span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.quiz-answer input {
+    padding: 8px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.quiz-answer button {
+    padding: 8px 15px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#quiz-feedback {
+    margin-top: 15px;
+    min-height: 80px;
+}
+
+.correct {
+    color: #2ecc71;
+    font-weight: bold;
+}
+
+.wrong {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.encourage {
+    color: #3498db;
+    font-style: italic;
+}
+
+/* batasedit */
+
+
+.quiz-container {
+    background-color: #f8f9fa;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 40px 0;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    border-left: 7px solid #e74c3c;
+}
+
+#current-kana {
+    font-size: 28px;
+    color: #2c3e50;
+    margin: 0 5px;
+}
+
+.quiz-answer input {
+    padding: 10px;
+    width: 250px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.quiz-answer button {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.quiz-answer button:hover {
+    background-color: #c0392b;
+}
+
+#quiz-feedback {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    min-height: 100px;
+}
+
+.correct {
+    color: #27ae60;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.wrong {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.encourage {
+    color: #3498db;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.score {
+    font-weight: bold;
+    color: #2c3e50;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+
+/* ===== Gaya Khusus untuk Tombol Audio ===== */
+.audio-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: #f8f9fa;
+    border: 2px solid #e74c3c;
+    color: #e74c3c;
+    border-radius: 50%;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Efek hover */
+.audio-btn:hover {
+    background-color: #e74c3c;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(231, 76, 60, 0.3);
+}
+
+/* Efek aktif (saat diklik) */
+.audio-btn:active {
+    transform: scale(0.95);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+/* Animasi gelombang suara */
+.audio-btn::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(231,76,60,0.4) 0%, rgba(231,76,60,0) 70%);
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.audio-btn.playing::after {
+    opacity: 1;
+    transform: scale(1.5);
+}
+
+/* Efek ripple saat diklik */
+@keyframes ripple {
+    to {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+.audio-btn:focus:not(:active)::after {
+    animation: ripple 0.6s ease-out;
+}
+
+/* ===== Tambahan Responsif ===== */
+@media (max-width: 600px) {
+    .audio-btn {
+        width: 24px;
+        height: 24px;
+        font-size: 12px;
+    }
+}
+
+.audio-btn {
+    will-change: transform, box-shadow;
+}
+
+/* Untuk kategori berbeda */
+.audio-btn.salam { border-color: #2ecc71; }
+.audio-btn.percakapan { border-color: #3498db; }
+
+.audio-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(231, 76, 60, 0.5);
+}
