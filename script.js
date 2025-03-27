@@ -250,7 +250,7 @@ function checkAnswer() {
         `;
     }
 
-    setTimeout(showQuestion, 2500);
+    setTimeout(showQuestion, 4000);
 }
 
 // Event listener
